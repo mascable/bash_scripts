@@ -15,19 +15,16 @@ function IntegerFunction
 		echo
 		echo "That is not an integer between 1 and 10. Try again."
 		echo
-		continue
 
 	elif [ $user_int -le 0 ] > /dev/null 2>&1 ;then
 		echo
 		echo "That is not an integer between 1 and 10. Try again."
 		echo
-		continue
 
 	elif [[ $user_int =~ ^[a-zA-Z]+$ ]];then
 		echo		
 		echo "That is not an integer between 1 and 10. Try again."
 		echo
-		continue
 	
 	#The math of the program.
 
